@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		7698401C2AFB4B040010872E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698401B2AFB4B040010872E /* AppDelegate.swift */; };
 		7698401E2AFB4B040010872E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698401D2AFB4B040010872E /* SceneDelegate.swift */; };
-		769840202AFB4B040010872E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698401F2AFB4B040010872E /* ViewController.swift */; };
+		769840202AFB4B040010872E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698401F2AFB4B040010872E /* SignUpVC.swift */; };
 		769840232AFB4B040010872E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769840212AFB4B040010872E /* Main.storyboard */; };
-		769840252AFB4B060010872E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769840242AFB4B060010872E /* Assets.xcassets */; };
 		769840282AFB4B060010872E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769840262AFB4B060010872E /* LaunchScreen.storyboard */; };
+		769840312AFB52120010872E /* ParseLiveQuery in Frameworks */ = {isa = PBXBuildFile; productRef = 769840302AFB52120010872E /* ParseLiveQuery */; };
+		769840332AFB7D960010872E /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769840322AFB7D960010872E /* PlacesVC.swift */; };
+		769840352AFB906D0010872E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769840342AFB906D0010872E /* Assets.xcassets */; };
+		769840372AFB90E00010872E /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769840362AFB90E00010872E /* AddPlaceVC.swift */; };
+		769840392AFB92660010872E /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769840382AFB92660010872E /* MapVC.swift */; };
+		769840402AFB9A700010872E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698403F2AFB9A700010872E /* DetailVC.swift */; };
+		769840422AFBBFAA0010872E /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769840412AFBBFAA0010872E /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		769840182AFB4B040010872E /* FourSqareClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourSqareClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7698401B2AFB4B040010872E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7698401D2AFB4B040010872E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7698401F2AFB4B040010872E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7698401F2AFB4B040010872E /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		769840222AFB4B040010872E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		769840242AFB4B060010872E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		769840272AFB4B060010872E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		769840292AFB4B060010872E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769840322AFB7D960010872E /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
+		769840342AFB906D0010872E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		769840362AFB90E00010872E /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		769840382AFB92660010872E /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		7698403F2AFB9A700010872E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		769840412AFBBFAA0010872E /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769840312AFB52120010872E /* ParseLiveQuery in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +70,14 @@
 			children = (
 				7698401B2AFB4B040010872E /* AppDelegate.swift */,
 				7698401D2AFB4B040010872E /* SceneDelegate.swift */,
-				7698401F2AFB4B040010872E /* ViewController.swift */,
+				7698401F2AFB4B040010872E /* SignUpVC.swift */,
+				769840322AFB7D960010872E /* PlacesVC.swift */,
+				769840362AFB90E00010872E /* AddPlaceVC.swift */,
+				769840382AFB92660010872E /* MapVC.swift */,
+				7698403F2AFB9A700010872E /* DetailVC.swift */,
+				769840412AFBBFAA0010872E /* PlaceModel.swift */,
 				769840212AFB4B040010872E /* Main.storyboard */,
-				769840242AFB4B060010872E /* Assets.xcassets */,
+				769840342AFB906D0010872E /* Assets.xcassets */,
 				769840262AFB4B060010872E /* LaunchScreen.storyboard */,
 				769840292AFB4B060010872E /* Info.plist */,
 			);
@@ -83,6 +100,9 @@
 			dependencies = (
 			);
 			name = FourSqareClone;
+			packageProductDependencies = (
+				769840302AFB52120010872E /* ParseLiveQuery */,
+			);
 			productName = FourSqareClone;
 			productReference = 769840182AFB4B040010872E /* FourSqareClone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 7698400F2AFB4B040010872E;
+			packageReferences = (
+				7698402F2AFB52120010872E /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */,
+			);
 			productRefGroup = 769840192AFB4B040010872E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				769840282AFB4B060010872E /* LaunchScreen.storyboard in Resources */,
-				769840252AFB4B060010872E /* Assets.xcassets in Resources */,
+				769840352AFB906D0010872E /* Assets.xcassets in Resources */,
 				769840232AFB4B040010872E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				769840202AFB4B040010872E /* ViewController.swift in Sources */,
+				769840202AFB4B040010872E /* SignUpVC.swift in Sources */,
+				769840422AFBBFAA0010872E /* PlaceModel.swift in Sources */,
+				769840392AFB92660010872E /* MapVC.swift in Sources */,
 				7698401C2AFB4B040010872E /* AppDelegate.swift in Sources */,
+				769840332AFB7D960010872E /* PlacesVC.swift in Sources */,
+				769840372AFB90E00010872E /* AddPlaceVC.swift in Sources */,
 				7698401E2AFB4B040010872E /* SceneDelegate.swift in Sources */,
+				769840402AFB9A700010872E /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +323,8 @@
 				DEVELOPMENT_TEAM = 9YC7UP4F29;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FourSqareClone/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To see your location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To use your photo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +353,8 @@
 				DEVELOPMENT_TEAM = 9YC7UP4F29;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FourSqareClone/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To see your location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To use your photo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -363,6 +395,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7698402F2AFB52120010872E /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-SDK-iOS-OSX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		769840302AFB52120010872E /* ParseLiveQuery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7698402F2AFB52120010872E /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */;
+			productName = ParseLiveQuery;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 769840102AFB4B040010872E /* Project object */;
 }
