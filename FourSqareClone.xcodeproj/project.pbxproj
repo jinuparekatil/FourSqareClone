@@ -12,13 +12,14 @@
 		769840202AFB4B040010872E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698401F2AFB4B040010872E /* SignUpVC.swift */; };
 		769840232AFB4B040010872E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769840212AFB4B040010872E /* Main.storyboard */; };
 		769840282AFB4B060010872E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769840262AFB4B060010872E /* LaunchScreen.storyboard */; };
-		769840312AFB52120010872E /* ParseLiveQuery in Frameworks */ = {isa = PBXBuildFile; productRef = 769840302AFB52120010872E /* ParseLiveQuery */; };
 		769840332AFB7D960010872E /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769840322AFB7D960010872E /* PlacesVC.swift */; };
 		769840352AFB906D0010872E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769840342AFB906D0010872E /* Assets.xcassets */; };
 		769840372AFB90E00010872E /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769840362AFB90E00010872E /* AddPlaceVC.swift */; };
 		769840392AFB92660010872E /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769840382AFB92660010872E /* MapVC.swift */; };
 		769840402AFB9A700010872E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698403F2AFB9A700010872E /* DetailVC.swift */; };
 		769840422AFBBFAA0010872E /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769840412AFBBFAA0010872E /* PlaceModel.swift */; };
+		76C8214D2D033FFD006331B1 /* ParseLiveQuery in Frameworks */ = {isa = PBXBuildFile; productRef = 76C8214C2D033FFD006331B1 /* ParseLiveQuery */; };
+		76C8214F2D033FFD006331B1 /* ParseObjC in Frameworks */ = {isa = PBXBuildFile; productRef = 76C8214E2D033FFD006331B1 /* ParseObjC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				769840312AFB52120010872E /* ParseLiveQuery in Frameworks */,
+				76C8214F2D033FFD006331B1 /* ParseObjC in Frameworks */,
+				76C8214D2D033FFD006331B1 /* ParseLiveQuery in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +103,8 @@
 			);
 			name = FourSqareClone;
 			packageProductDependencies = (
-				769840302AFB52120010872E /* ParseLiveQuery */,
+				76C8214C2D033FFD006331B1 /* ParseLiveQuery */,
+				76C8214E2D033FFD006331B1 /* ParseObjC */,
 			);
 			productName = FourSqareClone;
 			productReference = 769840182AFB4B040010872E /* FourSqareClone.app */;
@@ -132,7 +135,7 @@
 			);
 			mainGroup = 7698400F2AFB4B040010872E;
 			packageReferences = (
-				7698402F2AFB52120010872E /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */,
+				76C8214B2D033FFD006331B1 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */,
 			);
 			productRefGroup = 769840192AFB4B040010872E /* Products */;
 			projectDirPath = "";
@@ -397,21 +400,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7698402F2AFB52120010872E /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */ = {
+		76C8214B2D033FFD006331B1 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/parse-community/Parse-SDK-iOS-OSX";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.7.3;
+				minimumVersion = 4.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		769840302AFB52120010872E /* ParseLiveQuery */ = {
+		76C8214C2D033FFD006331B1 /* ParseLiveQuery */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7698402F2AFB52120010872E /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */;
+			package = 76C8214B2D033FFD006331B1 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */;
 			productName = ParseLiveQuery;
+		};
+		76C8214E2D033FFD006331B1 /* ParseObjC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76C8214B2D033FFD006331B1 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */;
+			productName = ParseObjC;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
